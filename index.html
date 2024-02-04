@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@600&family=Fraunces:opsz,wght@9..144,900&family=Hanken+Grotesk:wght@500;700;800&family=Montserrat:wght@500;700&family=Open+Sans&family=Outfit:wght@300;400;600&family=Red+Hat+Display&family=Work+Sans:ital,wght@0,400;0,600;1,700&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script>
+        $.getJSON("https://api.ipify.org?format=json", function(data) {
+            $("#ip").html(data.ip);
+            localStorage.setItem("currentIp", data.ip);
+        })
+    </script>
+</head>
+<body>
+    <section class="main-container">
+        <div class="container">
+            <h2>Post Office Application.</h2>
+            <p>This Application Allows you to extract information about the nearest Post Offices, based on your location.</p>
+            <img src="./assets/undraw_messenger_re_8bky 1.png" width="450px" height="462px" alt="boy-image"/>
+        </div>
+        <div class="side-container">
+            <p id="text">Your Current IP Address is &ThinSpace;</p>
+            <p id="ip"></p>
+            <a href="./map.html"><button class="btn">Get Started</button></a>
+        </div>
+    </section>
+    <script src="./index.js"></script>
+</body>
+</html> 
+
+

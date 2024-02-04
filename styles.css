@@ -1,0 +1,110 @@
+.api-address{
+    width: 1512px;
+   height: 422px;
+    background-color: #000000;
+     margin: auto;
+     /* display: none; */
+}
+#ipDetails {
+    width: 1167px;
+   height: 50px;
+   margin: 20px;
+   font-family: Montserrat;
+   font-size: 30px;
+   font-weight: 700;
+   line-height: 41px;
+   letter-spacing: 0em;
+   color:#B8BCCC80;
+}
+.data{
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+     letter-spacing: 0em; 
+      color:#B8BCCC80;
+      height: 190px;
+      margin-left: 60px;
+     
+}
+.data-1{
+   position: absolute;
+    text-align: left;
+}
+.data-2{
+ text-align: center;
+     
+}
+
+.loca{
+      width: 1167px;
+      height: 59px;
+      font-family: Montserrat;
+      font-size: 30px;
+      font-weight: 700;
+      line-height: 59px;
+      letter-spacing: 0em;
+      text-align: center;
+      color: #B8BCCC80;
+}
+
+#map{
+    background-color: #575A85;
+    justify-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 80px;
+}
+
+.info p{
+    width: 1167px;
+    height: 41px;
+    margin: 20px;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 41px;
+    letter-spacing: 0em;
+    color:#B8BCCC80;
+   text-align: center;
+}
+.moreInfo {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+     letter-spacing: 0em; 
+      color:#B8BCCC80;
+      height: 200px;
+      margin-left: 60px;
+
+}
+
+
+/* Mpre Info */
+#moreInfo {
+    display: flex;
+    flex-direction: column;
+    background-color: #000000;
+    
+
+}
+
+.more-info  {
+   text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    color: rgba(184, 188, 204, 1);
+}
+
+#moreInfo{
+ color: #B8BCCC80;
+}
+#postOfficeList{
+    background-color: #000000;
+}
+#postOfficeList p {
+    color: rgba(184, 188, 204, 0.5);
+    font-weight: 700;
+    font-size: 34px;
+}
